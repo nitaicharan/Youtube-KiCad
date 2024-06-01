@@ -40,3 +40,6 @@ bom/
 
 # Gerber export output
 out/
+
+\#auto_saved_files\#
+*.kicad_sch.lck
