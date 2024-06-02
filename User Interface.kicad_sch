@@ -1647,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 96.52) (xy 227.33 99.06)
+			(xy 227.33 90.17) (xy 227.33 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1986,7 +1986,7 @@
 		(uuid "1c4eeeab-2cc0-4ae9-ac41-7c2765bd35a4")
 	)
 	(label "LED"
-		(at 227.33 88.9 0)
+		(at 227.33 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2039,6 +2039,53 @@
 			(justify left bottom)
 		)
 		(uuid "9e68bebf-abf9-46dd-9cb0-22fe831687d0")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 64.77 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1abc8ae2-d0ee-4141-ba7d-5da3707c79b7")
+		(property "Netclass" "signal"
+			(at 67.31 94.5515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 227.33 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7aa7c95b-b969-4b79-acc7-1342e57384d7")
+		(property "Netclass" "signal"
+			(at 231.394 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
@@ -2115,7 +2162,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 227.33 92.71 90)
+		(at 227.33 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2124,7 +2171,7 @@
 		(fields_autoplaced yes)
 		(uuid "310849bb-41d6-4e49-ace6-58fcbd7f8d0d")
 		(property "Reference" "D1"
-			(at 231.14 93.0274 90)
+			(at 231.14 86.6774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2180,7 @@
 			)
 		)
 		(property "Value" "5mm Yellow LED"
-			(at 231.14 95.5674 90)
+			(at 231.14 89.2174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2189,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 227.33 92.71 0)
+			(at 227.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 92.71 0)
+			(at 227.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2207,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 227.33 92.71 0)
+			(at 227.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
