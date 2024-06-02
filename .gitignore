@@ -42,4 +42,4 @@ bom/
 out/
 
 \#auto_saved_files\#
-*.kicad_sch.lck
+*.lck
